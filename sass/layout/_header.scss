@@ -4,12 +4,12 @@
   border-bottom: 1px solid #ececec;
 }
 
-.navigation-menu-list,
+.menu,
 .header-contact {
   display: flex;
 }
 
-.header-logo-link {
+.header__logo-link {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 26px;
@@ -19,8 +19,10 @@
   margin-right: 93px;
 }
 
-.header-contact-item:not(:last-child) {
-  margin-right: 50px;
+.header-contact-item {
+  &:not(:last-child) {
+    margin-right: 50px;
+  }
 }
 
 .mail-link,
@@ -37,13 +39,10 @@
   letter-spacing: 0.02em;
   color: var(--description-color);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.tell-link:hover,
-.tell-link:focus,
-.mail-link:hover,
-.mail-link:focus {
-  color: var(--accent-hover-color);
+  &:hover,
+  &:focus {
+    color: var(--accent-hover-color);
+  }
 }
 
 .header-mail-icon-send {
@@ -76,6 +75,12 @@
 .header-mail-icon-send,
 .header-mail-icon-phone {
   margin-right: 10px;
+  .mail-link:hover &,
+  .mail-link:focus &,
+  .tell-link:hover &,
+  .tell-link:focus & {
+    fill: #2196f3;
+  }
 }
 
 .header-contact {
@@ -84,17 +89,18 @@
   align-items: center;
 }
 
-.navigation-menu-item:not(:last-child) {
-  margin-right: 40px;
-}
-
-.navigation-menu-item {
+.menu__item {
   position: relative;
+  &:not(:last-child) {
+    margin-right: 40px;
+  }
 }
 
-.navigation-menu-link:hover,
-.navigation-menu-link:focus {
-  color: var(--accent-hover-color);
+.menu__link {
+  &:hover,
+  &:focus {
+    color: var(--accent-hover-color);
+  }
 }
 
 .navigation {
@@ -102,28 +108,34 @@
   align-items: center;
 }
 
-.navigation-menu-link {
+.menu__link {
   color: var(--main-color-font);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.33;
   letter-spacing: 0.02em;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    color: var(--accent-hover-color);
+  }
 }
 
 .address-style {
   color: var(--white-font);
 }
 
-.active::after {
-  content: '';
-  display: block;
-  height: 4px;
-  width: 100%;
-  background: #2196f3;
-  position: absolute;
-  bottom: -31px;
-  border-radius: 2px;
+.active {
+  &::after {
+    content: '';
+    display: block;
+    height: 4px;
+    width: 100%;
+    background: #2196f3;
+    position: absolute;
+    bottom: -31px;
+    border-radius: 2px;
+  }
 }
 
 .logo-style {

@@ -1,5 +1,6 @@
 .footer {
   background-color: #2f303a;
+  padding: 60px 0 60px 0;
 }
 
 .footer-container-right {
@@ -14,19 +15,11 @@
   color: #ffffff;
 }
 
-.footer {
-  padding: 60px 0 60px 0;
-}
-
-.footer-container {
-  display: flex;
-}
-
 .footer-container-left {
   margin-right: 70px;
 }
 
-.footer-logo-link {
+.footer__logo-link {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 26px;
@@ -51,10 +44,6 @@
   text-decoration: none;
 }
 
-.address-list-item:first-child {
-  margin-top: 20px;
-}
-
 .address-style {
   color: var(--white-font);
 }
@@ -62,4 +51,7 @@
 .address-list-item {
   list-style: none;
   margin-top: 9px;
+  &:first-child {
+    margin-top: 20px;
+  }
 }
