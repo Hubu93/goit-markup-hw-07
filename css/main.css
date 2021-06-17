@@ -106,7 +106,7 @@ body {
   overflow: hidden;
 }
 
-.hero-modal-btn {
+.modal-btn {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -573,7 +573,7 @@ body {
 }
 
 .menu,
-.header-contact {
+.contact {
   display: flex;
 }
 
@@ -587,18 +587,18 @@ body {
   margin-right: 93px;
 }
 
-.header-contact-item:not(:last-child) {
+.contact__item:not(:last-child) {
   margin-right: 50px;
 }
 
-.mail-link,
-.tell-link {
+.contact__mail-linkk,
+.contact__tell-link {
   display: flex;
   align-items: center;
 }
 
-.tell-link,
-.mail-link {
+.contact__tell-link,
+.contact__mail-link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.33;
@@ -607,13 +607,13 @@ body {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.tell-link:hover, .tell-link:focus,
-.mail-link:hover,
-.mail-link:focus {
+.contact__tell-link:hover, .contact__tell-link:focus,
+.contact__mail-link:hover,
+.contact__mail-link:focus {
   color: var(--accent-hover-color);
 }
 
-.header-mail-icon-send {
+.contact__mail-icon {
   fill: #757575;
   width: 16px;
   height: 12px;
@@ -621,7 +621,7 @@ body {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.header-mail-icon-phone {
+.contact__tell-icon {
   width: 10px;
   height: 16px;
   fill: #757575;
@@ -629,37 +629,37 @@ body {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.header-mail-abzac {
+.contact__abzac {
   display: inline-block;
 }
 
-.mail-link:hover .header-mail-icon-send,
-.mail-link:focus .header-mail-icon-send,
-.tell-link:hover .header-mail-icon-phone,
-.tell-link:focus .header-mail-icon-phone {
+.contact__mail-link:hover .contact__mail-icon,
+.contact__mail-link:focus .contact__mail-icon,
+.contact__tell-link:hover .contact__tell-icon,
+.contact__tell-link:focus .contact__tell-icon {
   fill: #2196f3;
 }
 
-.header-mail-icon-send,
-.header-mail-icon-phone {
+.contact__mail-icon,
+.contact__tell-icon {
   margin-right: 10px;
 }
 
-.mail-link:hover .header-mail-icon-send,
-.mail-link:focus .header-mail-icon-send,
-.tell-link:hover .header-mail-icon-send,
-.tell-link:focus .header-mail-icon-send, .mail-link:hover
-.header-mail-icon-phone,
-.mail-link:focus
-.header-mail-icon-phone,
-.tell-link:hover
-.header-mail-icon-phone,
-.tell-link:focus
-.header-mail-icon-phone {
+.contact__mail-link:hover .contact__mail-icon,
+.contact__mail-link:focus .contact__mail-icon,
+.contact__tell-link:hover .contact__mail-icon,
+.contact__tell-link:focus .contact__mail-icon, .contact__mail-link:hover
+.contact__tell-icon,
+.contact__mail-link:focus
+.contact__tell-icon,
+.contact__tell-link:hover
+.contact__tell-icon,
+.contact__tell-link:focus
+.contact__tell-icon {
   fill: #2196f3;
 }
 
-.header-contact {
+.contact {
   margin-left: auto;
   display: flex;
   align-items: center;
@@ -725,7 +725,7 @@ body {
   margin-right: auto;
 }
 
-.hero-title {
+.hero__title {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
