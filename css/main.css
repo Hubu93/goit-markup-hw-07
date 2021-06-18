@@ -106,7 +106,7 @@ body {
   overflow: hidden;
 }
 
-.modal-btn {
+.modal__btn {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -591,7 +591,7 @@ body {
   margin-right: 50px;
 }
 
-.contact__mail-linkk,
+.contact__mail-link,
 .contact__tell-link {
   display: flex;
   align-items: center;
@@ -885,7 +885,7 @@ body {
   line-height: 1.17;
 }
 
-.priorities-title {
+.priorities-list__tittle {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -900,13 +900,13 @@ body {
   margin-left: -30px;
 }
 
-.priorities-list-item {
+.priorities-list__item {
   margin-top: 30px;
   margin-left: 30px;
   flex-basis: calc((100% - 120px) / 4);
 }
 
-.priorities-list-item-block {
+.priorities-list__block {
   height: 120px;
   width: 270px;
   background-color: #f5f4fa;
@@ -916,13 +916,13 @@ body {
   border-radius: 4px;
 }
 
-.priorities-list-item-block-icon {
+.priorities-list__block-icon {
   width: 70px;
   height: 70px;
   display: block;
 }
 
-.priorities-title-description {
+.priorities-list__tittle-description {
   margin-top: 10px;
   font-size: 14px;
   line-height: 24px;
