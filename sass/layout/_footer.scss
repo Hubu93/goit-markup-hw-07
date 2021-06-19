@@ -33,7 +33,7 @@
   display: flex;
 }
 
-.address-list-link {
+.address-list__item-link {
   font-family: Roboto;
   font-weight: 400;
   font-size: 14px;
@@ -48,7 +48,7 @@
   color: var(--white-font);
 }
 
-.address-list-item {
+.address-list__item {
   list-style: none;
   margin-top: 9px;
   &:first-child {

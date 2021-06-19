@@ -8,27 +8,19 @@
   font-size: 36px;
 }
 
-.team-list-item-title {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.18;
-  letter-spacing: 0.03em;
-  text-align: center;
-}
-
 .team-list {
   display: flex;
   margin-top: -30px;
   margin-left: -30px;
 }
 
-.team-list-item {
+.team-list__item {
   margin-left: 30px;
   margin-top: 30px;
   flex-basis: calc((100% - 120px) / 4);
 }
 
-.team-list-item-convert {
+.team-list-convert {
   padding-top: 30px;
   padding-bottom: 30px;
   padding-left: 32px;
@@ -40,7 +32,15 @@
   border-radius: 0px 0px 4px 4px;
 }
 
-.team-list-item-description {
+.team-list-convert__title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+
+.team-list-convert__description {
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;

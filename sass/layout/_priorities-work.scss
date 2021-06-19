@@ -16,13 +16,13 @@
   margin-left: -30px;
 }
 
-.priorities-work-list-item {
+.priorities-work-list__item {
   margin-left: 30px;
   flex-basis: calc((100% - 90px) / 3);
   position: relative;
 }
 
-.priorities-work-list-item-abzac {
+.priorities-work-list__item-abzac {
   position: absolute;
   bottom: 0;
   left: 0;
