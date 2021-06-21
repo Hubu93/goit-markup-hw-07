@@ -4,7 +4,7 @@
   line-height: 1.17;
 }
 
-.clients-list-item-link {
+.clients-list__item-link {
   width: 170px;
   height: 92px;
   border-radius: 4px;
@@ -25,8 +25,8 @@
   height: 60px;
   fill: #afb1b8;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  .clients-list-item-link:hover &,
-  .clients-list-item-link:focus & {
+  .clients-list__item-link:hover &,
+  .clients-list__item-link:focus & {
     fill: #2196f3;
   }
 }
@@ -37,6 +37,6 @@
   margin-top: 50px;
 }
 
-.clients-list-item {
+.clients-list__item {
   display: flex;
 }

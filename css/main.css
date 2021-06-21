@@ -393,7 +393,7 @@ body {
   line-height: 1.17;
 }
 
-.clients-list-item-link {
+.clients-list__item-link {
   width: 170px;
   height: 92px;
   border-radius: 4px;
@@ -404,7 +404,7 @@ body {
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.clients-list-item-link:hover, .clients-list-item-link:focus {
+.clients-list__item-link:hover, .clients-list__item-link:focus {
   border: 1px solid #2196f3;
   cursor: pointer;
 }
@@ -416,8 +416,8 @@ body {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.clients-list-item-link:hover .clients-list-item-icon,
-.clients-list-item-link:focus .clients-list-item-icon {
+.clients-list__item-link:hover .clients-list-item-icon,
+.clients-list__item-link:focus .clients-list-item-icon {
   fill: #2196f3;
 }
 
@@ -427,11 +427,11 @@ body {
   margin-top: 50px;
 }
 
-.clients-list-item {
+.clients-list__item {
   display: flex;
 }
 
-.footer-input-string__title {
+.footer-input-tittle {
   font-size: 14px;
   color: #ffffff;
   line-height: 1.17;
