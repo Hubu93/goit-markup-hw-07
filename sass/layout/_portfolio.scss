@@ -1,9 +1,9 @@
-.portfolio-listwork-list {
+.portfolio-listwor__item {
   position: relative;
   overflow: hidden;
 }
 
-.portfolio-listwork-list-link {
+.portfolio-listwork__item {
   text-decoration: none;
   color: #212121;
   &:hover .overlay,
@@ -12,7 +12,7 @@
   }
 }
 
-.portfolio-list-img-wrapper {
+.portfolio-wrapper {
   position: relative;
   overflow: hidden;
 }
@@ -28,7 +28,7 @@
   margin-bottom: 50px;
 }
 
-.portfolio-list-item {
+.portfolio-list__item {
   list-style: none;
   margin-right: 8px;
   &:last-child {
@@ -36,7 +36,11 @@
   }
 }
 
-.portfolio-list-item-btn {
+.portfolio-listwork__item-link {
+  text-decoration: none;
+}
+
+.portfolio-list__item-btn {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -67,7 +71,7 @@
   margin-left: -30px;
 }
 
-.portfolio-listwork-list {
+.portfolio-listwork__item {
   list-style: none;
   margin-top: 30px;
   margin-left: 30px;
@@ -79,11 +83,11 @@
   }
 }
 
-.portfolio-listwork-list-link-img {
+.portfolio-wrapper__img {
   display: block;
 }
 
-.portfolio-listwork-list-link-convert {
+.portfolio-listwork__convert {
   border-left: 1px solid #eeeeee;
   border-right: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
@@ -91,14 +95,15 @@
   padding: 20px 24px 20px 24px;
 }
 
-.portfolio-listwork-list-link-title {
+.portfolio-listwork__convert-title {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
   text-align: left;
+  color: rgba(33, 33, 33, 1);
 }
 
-.portfolio-listwork-list-link-description {
+.portfolio-listwork__convert-description {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
